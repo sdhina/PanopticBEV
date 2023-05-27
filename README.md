@@ -1,5 +1,7 @@
 # Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images
 
+oue
+
 This repository contains the PyTorch implementation of the PanopticBEV model proposed in our RA-L 2021 paper [Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/abs/2108.03227).
 
 Our approach, PanopticBEV, is the state-of-the-art approach for generating panoptic segmentation maps in the bird's eye view using only monocular frontal view images.
