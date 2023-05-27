@@ -6,7 +6,7 @@
 #SBATCH --mem 150G
 #SBATCH --partition gpu
 #SBATCH --gres gpu:1
-#SBATCH --time 3-00
+#SBATCH --time 3-0
 #SBATCH --qos dlav
 #SBATCH --account civil-459-2023
 #SBATCH -o slurm.%N.%j.out # STDOUT
