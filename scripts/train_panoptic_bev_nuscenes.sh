@@ -9,4 +9,4 @@ CUDA_VISIBLE_DEVICES=0 \
                                     --mode=train \
                                     --train_dataset=nuScenes \
                                     --val_dataset=nuScenes \
-                                    --config=nuscenes.ini
+                                    --config=nuscenes_d5.ini
