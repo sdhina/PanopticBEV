@@ -119,7 +119,7 @@ class BiFPN(nn.Module):
         self.first_time = first_time
         if self.first_time:
             self.p6_down_channel = nn.Sequential(
-                Conv2dStaticSamePadding(conv_channels[3], num_channels, 1),
+                Conv2dStaticSamePadding(conv_channels[2], num_channels, 1),
                 nn.BatchNorm2d(num_channels, momentum=0.01, eps=1e-3),
             )
             self.p5_down_channel = nn.Sequential(
